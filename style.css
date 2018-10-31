@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(235, 235, 235);
+}
+.container {
+  width: 600px;
+  margin: 0 auto; 
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.profile-picture:hover {
+  transform: scale3d(1.1, 1.1, 1) rotate(-25deg);
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(201, 74, 0);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header, p, h3, h2 {
+  text-align: center;  
+}
+
+.social-text{
+  color: rgb(0, 125, 125);
+  transition: transform 0.2s;
+}
+
+.fab {
+  font-size: 1.2em;
+  text-decoration: none;
+  padding-right: 4px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.fab:hover {
+  color: rgb(125, 125, 125);
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.movie-covers {
+  height: 200px;
+  width: 250px;
+}
+.movie-card {
+  background-color: rgb(255,255,255);
+  box-shadow: 1px 2px 3px rgb(205, 205, 205);
+  transition: transform 0.2s;
+  align-content: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.movie-card:hover {
+  transform: scale3d(1.01, 1.01, 1);
+}
+
+.content {
+  align-content: center;
+}
+
+.card {
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px rgb(205, 205, 205);
+}
+.movie-text {
+  color: rgb(80, 80, 80);
+}
+
+table {
+  margin: 0 auto; 
+}
